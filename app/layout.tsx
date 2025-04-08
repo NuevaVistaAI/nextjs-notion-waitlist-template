@@ -7,9 +7,9 @@ import { Analytics } from "@vercel/analytics/react";
 const FigtreeFont = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next.js + Notion — Waitlist Template",
+  title: "Pupusería La Esperanza — Join the Waitlist",
   description:
-    "A simple Next.js waitlist template with Notion as CMS and Resend to send emails created with React Email and Upstash Redis for rate limiting. Deployed on Vercel.",
+    "Sign up for updates, catering info, and community events from Pupusería La Esperanza — Joplin’s home for authentic Salvadoran food.",
 };
 
 export default function RootLayout({
@@ -23,14 +23,8 @@ export default function RootLayout({
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:width" content="1280" />
       <meta property="og:image:height" content="832" />
-      <meta
-        property="og:site_name"
-        content="Next.js + Notion — Waitlist Template"
-      />
-      <meta
-        property="og:url"
-        content="https://nextjs-notion-waitlist.vercel.app/"
-      />
+      <meta property="og:site_name" content="Pupusería La Esperanza" />
+      <meta property="og:url" content="https://www.laesperanza.club/" />
       <meta name="twitter:image" content="/twitter-image.png" />
       <meta name="twitter:image:type" content="image/png" />
       <meta name="twitter:image:width" content="1280" />
